@@ -1,0 +1,129 @@
+/* font-family: 'Big Shoulders Display', sans-serif; */
+/* font-family: 'Lexend Deca', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+:root 
+{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+*
+{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+.app-container
+{
+  display: flex;
+  color:white;
+  border-radius: 10px;
+  max-width: 820px;
+}
+.container
+{
+  height: 60vh;
+  padding:40px;
+  width: 33.33%;
+  height: 420px;
+}
+.container-1  
+{
+  background-color: #E38826;
+  border-radius: 10px 0 0 10px;
+}
+.container-1 button
+{
+  color:#E38826;
+}
+.container-1 button:hover 
+{
+  border:2px solid white;
+  color:white;
+  background-color: #E38826;
+}
+.container-2
+{
+  background-color: #006970;
+}
+.container-2 button 
+{
+  color: #006970;;
+}
+.container-2 button:hover 
+{
+  border:2px solid white;
+  color:white;
+  background-color: #006970;
+}
+.container-3
+{
+  background-color: #004241;
+  border-radius: 0 10px 10px 0;
+}
+.container-3 button
+{
+  color: #004241;
+}
+.container-3 button:hover 
+{
+  border:2px solid white;
+  color:white;
+  background-color: #004241;
+}
+.container h1 
+{
+  font-family: 'Big Shoulders Display', sans-serif; 
+  font-size: 35px;
+  padding: 20px 0;
+}
+.container p
+{
+  font-family: 'Lexend Deca', sans-serif;
+  opacity: 0.8;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+.container button
+{
+  border:none;
+  background-color: white;
+  width: 150px;
+  padding:15px 30px;
+  border-radius: 30px;
+  font-family: 'Lexend Deca', sans-serif;
+  cursor: pointer;
+  transition: all 100ms ease-in-out;
+  margin: 10px 0;
+}
+@media screen and (max-width:850px)
+{
+  :root 
+  {
+    height: auto;
+  }
+  .app-container
+  {
+    flex-direction: column;
+    padding:20px;
+    width: 100%;
+  }
+  .container 
+  {
+    width: 300px;
+  }
+  .container-1
+  {
+    border-radius: 10px 10px 0 0;
+  }
+  .container-3
+  {
+    border-radius: 0px 0 10px 10px;
+  }
+}
